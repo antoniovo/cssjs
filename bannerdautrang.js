@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://baloshopvnxk.com/' target='_blank'><img src='http://baloshopvnxk.com/wordpress/wp-content/uploads/2015/10/IMG_9236.jpg' width='500px'/><br/>balo đẹp giá rẻ</a>. Liên hệ 0908707091. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://baloshopvnxk.com/' target='_blank'><img src='http://baloshopvnxk.com/wordpress/wp-content/uploads/2015/10/IMG_9236.jpg' width='500px'/><br/>balo đẹp giá rẻ tốt nhất hcm</a>. Liên hệ 0908707091. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
