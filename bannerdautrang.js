@@ -109,15 +109,15 @@
     }//orbit plugin call
 })(jQuery);
         
-$(window).load(function() {
+jQuery(window).load(function() {
 		if(document.cookie.indexOf("adf") == -1)
 		{
 			document.cookie = "adfpopunder1=adf";
 			var divpopup = document.createElement("div");
-			$(divpopup).attr('id', 'myModal');
-			$(divpopup).attr('class', 'linhnguyen-modal');
-			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://baloshopvnxk.com/' target='_blank'><img src='http://baloshopvnxk.com/wordpress/wp-content/uploads/2015/10/IMG_9236.jpg' width='500px'/><br/>balo đẹp giá rẻ tốt nhất hcm</a>. Liên hệ 0908707091. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
-			$('#myModal').linhnguyen($('#myModal').data());
+			jQuery(divpopup).attr('id', 'myModal');
+			jQuery(divpopup).attr('class', 'linhnguyen-modal');
+			jQuery( "body" ).append(divpopup);
+			jQuery("#myModal").html("<a href='http://baloshopvnxk.com/' target='_blank'><img src='http://baloshopvnxk.com/wordpress/wp-content/uploads/2015/10/IMG_9236.jpg' width='500px'/><br/>balo đẹp giá rẻ tốt nhất hcm</a>. Liên hệ 0908707091. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
